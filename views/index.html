@@ -6,18 +6,54 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>My Website</title>
     <link rel="stylesheet" href="./main.css">
+    <link rel="stylesheet" href="./buttons.css">
     <link rel="icon" href="./favicon.ico" type="image/x-icon">
   </head>
   <body>
     <main>
+      <div class = "pageHeader">
         <h1>Sam I am</h1>  
+      </div>
+        
         <div>
-            <button id="animationRoute">animation</button>
+          <img class = "left" src="./wedsiteThings.png" alt="Website Mascot" width="420" height="298"> 
+          
+        </div>
+        <div>
+          <img class = "right" src="./cup2.png" alt="Website Mascot" width="420" height="298">
         </div>
 
-        <div>
-            <button id="other">Robyn click here</button>
+        <!-- <div class = wrapper>
+            <button class = "navMenu" id="animationButton">Animation</button>
+            <button class = "navMenu" id="gameButton">Games</button>
+            <button class = "navMenu" id="portfolioButton">Portfolio</button>
+        </div> -->
+
+        <input type="checkbox" id="ham-menu">
+        <label for="ham-menu">
+          <div class="hide-des">
+            <span class="menu-line"></span>
+            <span class="menu-line"></span>
+            <span class="menu-line"></span>
+            <span class="menu-line"></span>
+            <span class="menu-line"></span>
+            <span class="menu-line"></span>
+          </div>
+        
+        </label>
+        <div class="full-page-green"></div>
+        <div class="ham-menu">
+          <ul class="centre-text bold-text">
+            <li id="animationButton">Animation</li>
+            <li id="gameButton">Games</li>
+            <li id="portfolioButton">Portfolio</li>
+            <li>Shop</li>
+            <li>Support</li>
+            <li>Contact us</li>
+        
+          </ul>
         </div>
+       
     </main>
 	<script src="./homePage.js"></script>
   </body>

@@ -1,6 +1,8 @@
 console.log("Hello")
-let animationButton = document.getElementById('animationRoute');
-let otherButton = document.getElementById('other');
+let animationButton = document.getElementById('animationButton');
+let otherButton = document.getElementById('gameButton');
+let portfolieButton = document.getElementById('portfolioButton');
+let backButton = document.getElementById('mainRoute');
 
 animationButton.addEventListener("click",function (){
     window.location.replace('/animation');
@@ -8,6 +10,18 @@ animationButton.addEventListener("click",function (){
 })
 
 otherButton.addEventListener("click", function(){
-    window.location.replace('/other');
+    window.location.replace('/Game');
 
 })
+
+portfolieButton.addEventListener("click", function(){
+    window.location.replace('/portfolio');
+})
+
+backButton.addEventListener("click", function () {
+    window.location.replace('/')
+
+})
+
+
+

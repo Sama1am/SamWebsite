@@ -1,6 +1,31 @@
-    h1 { color: #111; font-family: 'Helvetica Neue',sans-serif;
+    h1 { color: #fe8ba6; font-family: 'Helvetica Neue',sans-serif;
     font-size: 100px;
     font-weight: bold;
     letter-spacing: -1px;
     line-height: 1;
     text-align: center; }
+
+    .left {
+        float: left;
+        padding: 10px;
+      }
+
+    .right {
+        float: right;
+        padding: 10px;
+      }
+
+      .pageHeader {
+        border: 2px solid #fe8ba6;
+        border-radius: 10%;
+        border-bottom-right-radius: 1%;
+        border-top-left-radius: 0%;
+        border-bottom-left-radius: 0%;
+        border-top-right-radius: 0%;
+        border-width: 10%;
+        background-color: black;
+      }
+
+      body{
+        background-color: rgb(243, 228, 201);
+      }
